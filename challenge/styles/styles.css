@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: pink;
+    color: white;
+  }
+  h1 {
+    font-size: 300%;
+  }
+  ol {
+    
+    color: black;
+    font-size: 150%;
+  }
+  img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+  .name {
+    color:black;
+  }
