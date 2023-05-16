@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sigmar&display=swap');
+
 body {
     background-color: white;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #14213d;
 }
-.logo, .icon {
+.logo {
     width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;  
+}
+#logo_link {
+    padding-top: 5px;
+}
+main section img {
+    box-sizing: border-box;
 }
 #hero-img {
     width: 100%;
@@ -18,6 +34,7 @@ nav a {
     text-align: center;  
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #fca311;
@@ -25,21 +42,60 @@ nav a:hover {
 .book, .join {
     background-color: #e5e5e5;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #fca311;
 }
+.home-title {
+    color: #14213d;
+    font-family: Sigmar, 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #14213d;
+}
+.home-grid h2 {
+    color: #14213d;
+    font-family: Sigmar, 'Bradley Hand', sans-serif;
+}
+h2 {
+    margin: 0;
+}
 #background {
     background-color: #e5e5e5;
+    height: 725px;
+    margin: 50px 0;
 }
 .msg {
     background-color: #14213d;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
-.msg h2, .msg p {
+.msg h2 {
     color: white;
+    font-family: Poppins, Helvetica, sans-serif;
 }
-footer{
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer {
     background-color: #3e3e3e;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer p {
     color: bisque;
@@ -63,7 +119,4 @@ footer p a:hover {
 }
 main section {
     text-align: center;
-}
-#background {
-    height: 725px;
 }
