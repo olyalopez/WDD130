@@ -1,21 +1,35 @@
-body {
+main {
     text-align: center;
     background-color: pink;
     color: white;
+    padding: 10em;
   }
   h1 {
     font-size: 300%;
   }
+  h1:hover {
+    color: #000;
+  }
+  h2 {
+    max-width: 50%;
+    margin: auto;
+  }
+  .byline {
+    font-weight: 700;
+  }
   ol {
-    
+    text-align: left;
     color: black;
+    font-weight: 700;
     font-size: 150%;
   }
   img {
-    width: 20%;
+    width: 50%;
     display: block;
     margin: 0 auto;
   }
   .name {
     color:black;
+    margin: 4em auto;
+
   }

@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.jobtitle {
+    width: 100%;
+}
+.pictures {
+    background-color: grey;
+}
+.card-img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid darkgrey;
+    margin: 45px;
+}
