@@ -1,6 +1,8 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
 }
 #cherries {
     grid-column: 1/2;
@@ -9,23 +11,23 @@ main {
 
 h1 {
     text-align: center;
-    font-size: 7em;
+    font-size: 13em;
     grid-column: 1/3;
     grid-row: 1/2;
     z-index: 1;
 }
 h2 {
     color: red;
-    text-align: justify;
-    font-size: 3em;
+    align-self: last baseline;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: 0.5ch;
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 1;
 }
 #background {
     background-color: grey;
-    height: 350px;
-    width: 350px;
     grid-column: 2/3;
     grid-row: 1/2;
 }
