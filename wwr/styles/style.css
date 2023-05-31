@@ -9,6 +9,7 @@ body {
 }
 header {
     background-color: #14213d;
+    opacity: .8;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -143,7 +144,6 @@ h2 {
     background-color: #14213d;
     line-height: 1.5em;
     padding: 35px;
-    margin-top: 200px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
