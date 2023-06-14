@@ -182,6 +182,29 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 } 
+
+/*rivers page*/
+html {
+    margin: 0;
+    overscroll-behavior: none;
+  }
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#idaho, #arizona {
+    background-color: #e5e5e5;
+    max-width: 1600px;
+    height: 725px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.mountains {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
