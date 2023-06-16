@@ -187,52 +187,53 @@ footer p a:hover {
 
 .rivers-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 100px 0;
+
 }
-#idaho, #arizona, #utah {
+.rivers, .utah {
     background-color: #e5e5e5;
-    max-width: 1600px;
-    height: 925px;
     grid-column: 1/6;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    padding: 0 50px;
 }
-#utah {
+.utah {
     background-color: #fff;
-    height: 770px;
+    
 }
-#arizona {
-    height: 775px;
-}
-#idaho .idaho-pic, #utah .utah-pic, #arizona .arizona-pic {
-    width: 50%;
-    z-index: 0;
-    margin: 70px;
-    float: left;
+.rivers-img {
+    width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/5;
+    grid-row: 1/4;
+    margin-top: 50px;
 }
-#idaho h5, #utah h6, #arizona h3 {
-z-index: 1;
+.utah h3, .rivers h3 {
 color: #14213d;
 font-family: Sigmar, 'Bradley Hand', sans-serif;
 font-size: 1.7em;
-margin-top: 70px;
-margin-bottom: 20px;
+grid-column: 5/11;
+margin-left: 50px;
 }
-#idaho p, #utah p, #arizona p {
+.rivers p, .utah p {
     color: #14213d;
-    z-index: 1;
-    padding-right: 70px;
-    padding-left: 70px;
+    grid-column: 5/11;
+    margin-left: 50px;
+    text-align: left;
 }
-#idaho .book, #utah .book, #arizona .book {
+.rivers .book, .utah .book {
     background-color: #14213d;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
     border-radius: 5px;
-    margin-left: 575px;
+    justify-self: center;
+    grid-column: 5/7;
 }
-#idaho .book:hover, #utah .book:hover, #arizona .book:hover {
+.rivers .book:hover, .utah .book:hover {
     background-color: #fca311;
 }
 @media screen and (max-width: 900px) {
