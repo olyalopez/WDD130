@@ -20,7 +20,7 @@ header {
 main section {
     text-align: center;
 }
-#content {
+.content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -70,7 +70,7 @@ h1 {
 }
 p {
     grid-column: 1/4;
-    margin: 20px 50px;
+    margin: 20px 120px;
     color: #14213d;
 }
 footer {
