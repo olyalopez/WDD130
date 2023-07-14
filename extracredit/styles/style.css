@@ -7,8 +7,9 @@ START grid layout extra credit
 }
 .grid1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  padding: 2em auto;
+  grid-template-columns: repeat(12, 1fr);
+  padding-top: 2em;
+  padding-bottom: 2em;
   background: lightgrey;
 }
 
@@ -33,6 +34,7 @@ START grid layout extra credit
   background: green;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  padding: 1rem;
 }
 
 .grid3 h3 {
@@ -46,6 +48,7 @@ START grid layout extra credit
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  padding: 1rem;
 }
 
 .grid4 h2 {
@@ -86,13 +89,15 @@ fieldset > div {
 
 label {
   grid-column: 1/2;
+  align-self: right;
 }
 
 input {
   grid-column: 2/3;
-  align-items: left;
+  align-self: auto;
   width: 100%;
 }
+
 
 button {
   background: lightblue;
